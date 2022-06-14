@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+/* #navbarDropdownMenuLink{
+    margin-left: 750px;
+} */
+input{
+    border: none;
+    border-radius: 11px;
+}
+.nav-item.dropdown{
+    margin-left: 650px;
+}
+nav{
+    background-color: purple;
+}
+.bg-success.p-2{
+    height: 50px;
+}

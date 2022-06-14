@@ -1,0 +1,33 @@
+button{
+    background-color:rgb(100, 17, 100);
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 12px;
+    font-size: xx-large;
+    color: white;
+    /* margin-top: 250px;
+    margin-left: 510px; */
+}
+.BEST{
+    color: white;
+}
+h3{
+    font-size: xx-large;
+    /* margin-left: 500px; */
+    color: rgb(82, 21, 82);
+}
+form{
+    background-color: white;
+    margin-left: 510px;
+    margin-right: 600px;
+    margin-top: 250px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+
+}
+body{
+    background-color: black;
+}

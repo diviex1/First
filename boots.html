@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="boots.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <button type="button" class="btn btn-primary">Click Here</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+  <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+      <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+
+
+
+    </ul>
+  </div>
+  </div>
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <header></header>
+  <nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary">
+    <!-- Navbar content -->
+  </nav>
+
+  <nav class="navbar" style="background-color: #e3f2fd;">
+    <!-- Navbar content -->
+  </nav>
+
+  <div class="bg-success p-2 text-white">This is default success background</div>
+  <div class="bg-success p-2" style="--bs-bg-opacity: .5;">This is 50% opacity success background</div>
+
+  <nav class="navbar navbar-expand-lg bg-blue">
+    <div class="container-fluid">
+      <img src="images/bootstrap icon.jpg" alt="" width="30px">
+      <a class="navbar-brand" href="#">Docs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Themes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <input type="search" placeholder="Search">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              v5.2
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">v5 releases</a></li>
+              <li><a class="dropdown-item" href="#">Latest (5.2.x)</a></li>
+              <li><a class="dropdown-item" href="#">v5.1,3</a></li>
+              <li><a class="dropdown-item" href="#">v5.0.2</a></li><br>
+              <li><a class="dropdown-item" href="#">Previous releases</a></li>
+              <li><a class="dropdown-item" href="#">v4.6.x</a></li>
+              <li><a class="dropdown-item" href="#">v3.4.1</a></li>
+              <li><a class="dropdown-item" href="#">v2.3.2</a></li><br>
+              <li><a class="dropdown-item" href="#">All versions</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <img src="images/bootstrap icon.jpg" alt="" width="30px">
+      <a class="navbar-brand" href="#">Docs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Examples</a>
+          </li>
+          <!-- Making links responsive when clicked -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Icons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Themes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <input type="search" placeholder="Search">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              v5.2
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">v5 releases</a></li>
+              <li><a class="dropdown-item" href="#">Latest (5.2.x)</a></li>
+              <li><a class="dropdown-item" href="#">v5.1,3</a></li>
+              <li><a class="dropdown-item" href="#">v5.0.2</a></li><br>
+              <li><a class="dropdown-item" href="#">Previous releases</a></li>
+              <li><a class="dropdown-item" href="#">v4.6.x</a></li>
+              <li><a class="dropdown-item" href="#">v3.4.1</a></li>
+              <li><a class="dropdown-item" href="#">v2.3.2</a></li><br>
+              <li><a class="dropdown-item" href="#">All versions</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <img src="images/bootstrap icon.jpg" alt="" width="30px">
+      <a class="navbar-brand" href="#">Docs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Themes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <input type="search" placeholder="Search">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              v5.2
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">v5 releases</a></li>
+              <li><a class="dropdown-item" href="#">Latest (5.2.x)</a></li>
+              <li><a class="dropdown-item" href="#">v5.1,3</a></li>
+              <li><a class="dropdown-item" href="#">v5.0.2</a></li><br>
+              <li><a class="dropdown-item" href="#">Previous releases</a></li>
+              <li><a class="dropdown-item" href="#">v4.6.x</a></li>
+              <li><a class="dropdown-item" href="#">v3.4.1</a></li>
+              <li><a class="dropdown-item" href="#">v2.3.2</a></li><br>
+              <li><a class="dropdown-item" href="#">All versions</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div style="background-color: black;">
+    <P>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae adipisci soluta pariatur voluptatibus,
+      voluptas doloribus ipsum at nesciunt fuga cumque officia temporibus, quo consectetur facilis quos, nihil minus
+      inventore dolor?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quas illum tempora nam, dicta
+      ipsa pariatur exercitationem. Voluptatibus sit dolorem odio porro, nesciunt expedita qui explicabo impedit minima
+      fuga dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus consequatur incidunt
+      minima exercitationem! Perferendis aut, earum neque vitae eos soluta fugit, facere illum exercitationem obcaecati
+      impedit delectus omnis nam.
+    </P>
+  </div>
+
+  <div>
+    <P>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium consequatur exercitationem doloremque
+      perspiciatis mollitia! Vitae ab fugit nihil omnis. Voluptatibus quia doloribus libero sint quo debitis Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Similique praesentium maiores provident eum, inventore possimus rerum
+      sed culpa ipsam laborum, ducimus impedit voluptatem minus voluptatum nisi dolor vero suscipit deserunt?Lorem ipsum
+      dolor sit, amet consectetur adipisicing elit. Vitae minus eaque quisquam illo amet officiis dicta mollitia magni.
+      Iste vitae, veniam asperiores doloribus similique ducimus dignissimos repudiandae vero incidunt recusandae.
+      necessitatibus placeat blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate
+      quaerat, aspernatur iusto explicabo dolores. Velit a nam ad, harum quidem illum aliquid possimus amet consequatur
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis minus sit, labore modi sed cupiditate
+      explicabo dolor totam natus soluta, quis eos illum necessitatibus nam. Esse at facilis nobis ratione.
+      minima iure deserunt consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem rem non
+      dolore, eum dolorum vero magni tempore magnam tenetur. Perferendis minima distinctio eveniet nobis nostrum
+      voluptatum dicta cupiditate quidem esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+      excepturi eligendi tempora odio itaque culpa voluptas id eaque, dignissimos, facilis consectetur, est molestias
+      atque praesentium qui amet velit nobis earum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+      culpa, temporibus suscipit expedita sunt quidem quibusdam consequuntur vitae sit blanditiis vero repellendus
+      nostrum, quae cupiditate, tempore unde odio eaque molestiae.lorem Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Dolore, ex voluptatibus hic placeat culpa fuga saepe pariatur voluptates non, voluptatum
+      voluptate minima aspernatur. Esse enim ab vitae, id sed veniam. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Cumque amet dolor, odio molestiae nemo magni ipsa provident eius rem nobis dignissimos blanditiis impedit
+      incidunt vitae velit. Modi est consequatur accusamus.
+    </P>
+  </div>
+
+  <div>
+    <P>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium consequatur exercitationem doloremque
+      perspiciatis mollitia! Vitae ab fugit nihil omnis. Voluptatibus quia doloribus libero sint quo debitis Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Similique praesentium maiores provident eum, inventore possimus rerum
+      sed culpa ipsam laborum, ducimus impedit voluptatem minus voluptatum nisi dolor vero suscipit deserunt?Lorem ipsum
+      dolor sit, amet consectetur adipisicing elit. Vitae minus eaque quisquam illo amet officiis dicta mollitia magni.
+      Iste vitae, veniam asperiores doloribus similique ducimus dignissimos repudiandae vero incidunt recusandae.
+      necessitatibus placeat blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate
+      quaerat, aspernatur iusto explicabo dolores. Velit a nam ad, harum quidem illum aliquid possimus amet consequatur
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis minus sit, labore modi sed cupiditate
+      explicabo dolor totam natus soluta, quis eos illum necessitatibus nam. Esse at facilis nobis ratione.
+      minima iure deserunt consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem rem non
+      dolore, eum dolorum vero magni tempore magnam tenetur. Perferendis minima distinctio eveniet nobis nostrum
+      voluptatum dicta cupiditate quidem esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+      excepturi eligendi tempora odio itaque culpa voluptas id eaque, dignissimos, facilis consectetur, est molestias
+      atque praesentium qui amet velit nobis earum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+      culpa, temporibus suscipit expedita sunt quidem quibusdam consequuntur vitae sit blanditiis vero repellendus
+      nostrum, quae cupiditate, tempore unde odio eaque molestiae.lorem Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Dolore, ex voluptatibus hic placeat culpa fuga saepe pariatur voluptates non, voluptatum
+      voluptate minima aspernatur. Esse enim ab vitae, id sed veniam. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Cumque amet dolor, odio molestiae nemo magni ipsa provident eius rem nobis dignissimos blanditiis impedit
+      incidunt vitae velit. Modi est consequatur accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Unde molestiae pariatur deleniti vel distinctio molestias ad mollitia quam non! Possimus dolor ad cumque fuga
+      numquam asperiores non doloremque quis eos.
+    </P>
+  </div>
+  <h1 class="container" id="about">About</h1>
+  <div>
+    <P>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium consequatur exercitationem doloremque
+      perspiciatis mollitia! Vitae ab fugit nihil omnis. Voluptatibus quia doloribus libero sint quo debitis Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Similique praesentium maiores provident eum, inventore possimus rerum
+      sed culpa ipsam laborum, ducimus impedit voluptatem minus voluptatum nisi dolor vero suscipit deserunt?Lorem ipsum
+      dolor sit, amet consectetur adipisicing elit. Vitae minus eaque quisquam illo amet officiis dicta mollitia magni.
+      Iste vitae, veniam asperiores doloribus similique ducimus dignissimos repudiandae vero incidunt recusandae.
+      necessitatibus placeat blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate
+      quaerat, aspernatur iusto explicabo dolores. Velit a nam ad, harum quidem illum aliquid possimus amet consequatur
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis minus sit, labore modi sed cupiditate
+      explicabo dolor totam natus soluta, quis eos illum necessitatibus nam. Esse at facilis nobis ratione.
+      minima iure deserunt consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem rem non
+      dolore, eum dolorum vero magni tempore magnam tenetur. Perferendis minima distinctio eveniet nobis nostrum
+      voluptatum dicta cupiditate quidem esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+      excepturi eligendi tempora odio itaque culpa voluptas id eaque, dignissimos, facilis consectetur, est molestias
+      atque praesentium qui amet velit nobis earum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+      culpa, temporibus suscipit expedita sunt quidem quibusdam consequuntur vitae sit blanditiis vero repellendus
+      nostrum, quae cupiditate, tempore unde odio eaque molestiae.lorem Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Dolore, ex voluptatibus hic placeat culpa fuga saepe pariatur voluptates non, voluptatum
+      voluptate minima aspernatur. Esse enim ab vitae, id sed veniam. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Cumque amet dolor, odio molestiae nemo magni ipsa provident eius rem nobis dignissimos blanditiis impedit
+      incidunt vitae velit. Modi est consequatur accusamus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+      facilis minus ad iste minima veritatis consequatur odit voluptatibus eligendi nesciunt quidem sint, animi
+      recusandae facere laboriosam, adipisci rerum ducimus soluta. Lorem ipsum dolor, sit amet consectetur adipisicing
+      elit. Adipisci iusto veritatis qui dolorem harum! Commodi culpa vel facere unde assumenda provident tempora
+      officia repellat. Voluptatibus iste illum non magnam aperiam. Lorem ipsum, dolor sit amet consectetur adipisicing
+      elit. Veniam consequatur architecto praesentium sequi recusandae officia officiis, provident cum incidunt beatae
+      aperiam consectetur vero. Nihil minus provident distinctio repudiandae reprehenderit quaerat. Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Expedita totam aliquam magnam aliquid cum deleniti, animi sunt pariatur
+      odit similique! Necessitatibus atque laborum aliquam minus vitae deleniti assumenda perferendis? Perspiciatis.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis iste beatae necessitatibus consectetur
+      ipsam tempore tenetur eos excepturi, voluptatem, nobis hic! Mollitia veritatis voluptas fuga soluta optio, nobis
+      veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum earum, eum, provident
+      voluptate amet facere ex culpa sunt commodi numquam debitis hic deserunt cumque? Quaerat doloremque quam est
+      repellat.
+    </P>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>

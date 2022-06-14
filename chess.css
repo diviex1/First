@@ -1,0 +1,13 @@
+.table{
+    width: 450px; height: 450px;
+    border-style: solid;
+    font-size: 20px; line-height: 2.5 ;
+    text-align: center;
+}
+
+    body{
+         background-color: brown;
+         justify-content: center;
+         margin-left: 200px;
+    }
+    

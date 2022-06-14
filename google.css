@@ -1,0 +1,15 @@
+form{
+    margin-top: 250px;
+    margin-left: 35%;
+}
+h1{
+   font-style: italic;
+   font-size: 75px;
+}
+input{
+    border-radius: 9px;
+}
+a{
+    margin-left: 95%;
+    margin-top: 50%;
+}

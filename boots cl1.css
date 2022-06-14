@@ -1,0 +1,5 @@
+.new{
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.4), rgba(0,0,0,0.5)), url(./Images/wall.jpg);
+    padding: none;
+    height: 500px;
+}

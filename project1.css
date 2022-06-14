@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+}
+.first{
+    justify-content: space-between;
+    margin-left: 500px;
+    
+}
+button{
+    margin-left: 750px;
+}
